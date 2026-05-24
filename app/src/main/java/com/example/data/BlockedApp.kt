@@ -1,0 +1,13 @@
+package com.example.data
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "blocked_apps")
+data class BlockedApp(
+    @PrimaryKey val packageName: String,
+    val appName: String,
+    val dailyLimitMinutes: Int,
+    val timeSpentTodayMs: Long = 0L,
+    val lastActiveDate: Long = System.currentTimeMillis()
+)

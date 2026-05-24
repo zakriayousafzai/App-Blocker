@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Base White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C66,20 82,25 82,37 C82,60 54,88 54,88 C54,88 26,60 26,37 C26,25 42,20 54,20 Z" />
+    <!-- Center Padlock in Deep Slate Color -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,34 C50,34 47,38 47,42 L47,47 C45,47 44,48 44,50 L44,61 C44,63 45,64 47,64 L61,64 C63,64 64,63 64,61 L64,50 C64,48 63,47 61,47 L61,42 C61,38 58,34 54,34 Z M54,37 C56.2,37 58,38.8 58,42 L58,47 L50,47 L50,42 C50,38.8 51.8,37 54,37 Z" />
+</vector>
